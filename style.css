@@ -22,8 +22,10 @@
     font-weight: 600;
     transition: color 0.2s;
 }
+
 .cabecalho-meu-botaodisplay:
  flex;
+   {
     justify-content: space-between;
     align-items: center;
     padding: 20px 5%;
@@ -31,7 +33,9 @@
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
     position: sticky;
     top: 0;
-    z-index: 1000;
+    z-index: 1000;}
+
+
         .problema  {
      display: flex;
     align-items: center;
@@ -40,3 +44,29 @@
     min-height: 80vh;
     gap: 30px;
 }
+
+.problema-texto{
+    flex:1;
+}
+
+.problema-titulo{
+    font-size: 3rem;
+    color: blue;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.problema-imagem{
+    font-size: 3rem;
+    color:gray ;
+    justify-content:center;
+}
+
+.problema-foto{
+    width: 100%;
+    max-width: 550px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px gray;
+}
+
