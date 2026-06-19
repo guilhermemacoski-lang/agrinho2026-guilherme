@@ -61,6 +61,11 @@
     color:gray ;
     justify-content:center;
 }
+.problema-paragrafo{
+    font-size:1.2rem;
+    margin-bottom: 30px;
+    color:black;
+}
 
 .problema-foto{
     width: 100%;
@@ -69,4 +74,4 @@
     border-radius: 12px;
     box-shadow: 0 8px 24px gray;
 }
-
+.rodape {text-aligin:center;{}
